@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import page_objects.NavigationBar;
 
-public class CalculateRealAprRate {
+public class CalculateRealAprRate extends BaseClassUITests {
 
     //private final By RatesLink = By.linkText("Rates");
     //private final By RealAprLink = By.linkText("Real APR");

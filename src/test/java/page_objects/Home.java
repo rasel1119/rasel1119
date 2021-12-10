@@ -93,7 +93,7 @@ public class Home {
     }
 
     public Home typeHoi(String value) {
-        LOGGER.debug("Typing the HOI");
+        LOGGER.debug("Typing the HOI: " + value);
         ActOn.element(driver, YearlyHomeInsurance).setValue(value);
         return this;
     }
